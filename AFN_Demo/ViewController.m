@@ -66,7 +66,6 @@
             NSString *urlString = [NSString stringWithFormat:AUTH_INFO_URL,sid];
             [manager GET:urlString parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
                 
-                NSLog(@"%@",responseObject);
                 UserAuthInfo *userInfo = [UserAuthInfo userAuthInfoWithDict:responseObject];
                 userInfo.sid = sid;
                 

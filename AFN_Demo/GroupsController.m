@@ -27,7 +27,8 @@
 //    [self.tableView registerClass:[GroupCell class] forCellReuseIdentifier:@"group_cell"];
 //    [self.tableView registerClass:[ShipCell class] forCellReuseIdentifier:@"ship_cell"];
 //    
-    
+    self.tableView.estimatedRowHeight = 80;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
 }
 
 
@@ -59,13 +60,16 @@
 
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
-//    GroupCell *cell = [GroupCell groupCellWithTableview:tableView];
-//    cell.group = self.groups[section];
-//    return cell;
+    GroupCell *cell = [GroupCell groupCellNew];
+    cell.group = self.groups[section];
     
-    return [UIView new];
+    return cell;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 60;
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {

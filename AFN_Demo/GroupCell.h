@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @class ShipGroup;
-@interface GroupCell : UITableViewCell
+@interface GroupCell : UIView
 @property (strong, nonatomic) ShipGroup *group;
 
-+(instancetype)groupCellWithTableview:(UITableView *)tableView;
++(instancetype)groupCellNew;
 @end

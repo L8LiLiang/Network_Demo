@@ -100,7 +100,6 @@
     NSString *urlString = [NSString stringWithFormat:USER_SHIP_URL,self.userAuthInfo.sid,0];
     
     NSURLSessionDataTask *task = [manager GET:urlString parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
-        NSLog(@"%@",responseObject);
         
         NSDictionary *result = responseObject;
         int status = [[result objectForKey:@"status"] intValue];;

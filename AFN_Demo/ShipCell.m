@@ -62,10 +62,6 @@
     
     UIImage *image = [UIImage imageNamed:@"120"];
     self.imageViewImage.image = image;
-    
-    NSLog(@"%@",ship.ShipName);
-    NSLog(@"%@",ship.ShipId);
-    NSLog(@"%@",ship.Id);
 }
 
 @end

@@ -15,18 +15,20 @@
 		211209231BE8AA7E00D4260D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211209211BE8AA7E00D4260D /* LaunchScreen.storyboard */; };
 		2112092E1BE8AA7E00D4260D /* AFN_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112092D1BE8AA7E00D4260D /* AFN_DemoTests.m */; };
 		211209391BE8AA7E00D4260D /* AFN_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 211209381BE8AA7E00D4260D /* AFN_DemoUITests.m */; };
-		211209481BE8B42D00D4260D /* DemoHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 211209471BE8B42D00D4260D /* DemoHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
-		2112094C1BE8C97300D4260D /* UserInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112094A1BE8C97300D4260D /* UserInfoController.m */; settings = {ASSET_TAGS = (); }; };
-		2112094D1BE8C97300D4260D /* UserInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2112094B1BE8C97300D4260D /* UserInfoController.xib */; settings = {ASSET_TAGS = (); }; };
-		211209571BEB268E00D4260D /* UserAuthInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 211209561BEB268E00D4260D /* UserAuthInfo.m */; settings = {ASSET_TAGS = (); }; };
-		2112095C1BEB3D7A00D4260D /* ShipGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112095B1BEB3D7A00D4260D /* ShipGroup.m */; settings = {ASSET_TAGS = (); }; };
-		2112095F1BEB430600D4260D /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112095E1BEB430600D4260D /* Ship.m */; settings = {ASSET_TAGS = (); }; };
-		211209621BEB46DB00D4260D /* GroupsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211209611BEB46DB00D4260D /* GroupsController.m */; settings = {ASSET_TAGS = (); }; };
-		211209691BEC3E2C00D4260D /* GroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 211209671BEC3E2C00D4260D /* GroupCell.m */; settings = {ASSET_TAGS = (); }; };
-		2112096A1BEC3E2C00D4260D /* GroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 211209681BEC3E2C00D4260D /* GroupCell.xib */; settings = {ASSET_TAGS = (); }; };
-		211209711BEC473A00D4260D /* ShipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112096F1BEC473A00D4260D /* ShipCell.m */; settings = {ASSET_TAGS = (); }; };
-		211209721BEC473A00D4260D /* ShipCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 211209701BEC473A00D4260D /* ShipCell.xib */; settings = {ASSET_TAGS = (); }; };
+		211209481BE8B42D00D4260D /* DemoHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 211209471BE8B42D00D4260D /* DemoHTTPSessionManager.m */; };
+		2112094C1BE8C97300D4260D /* UserInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112094A1BE8C97300D4260D /* UserInfoController.m */; };
+		2112094D1BE8C97300D4260D /* UserInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2112094B1BE8C97300D4260D /* UserInfoController.xib */; };
+		211209571BEB268E00D4260D /* UserAuthInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 211209561BEB268E00D4260D /* UserAuthInfo.m */; };
+		2112095C1BEB3D7A00D4260D /* ShipGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112095B1BEB3D7A00D4260D /* ShipGroup.m */; };
+		2112095F1BEB430600D4260D /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112095E1BEB430600D4260D /* Ship.m */; };
+		211209621BEB46DB00D4260D /* GroupsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211209611BEB46DB00D4260D /* GroupsController.m */; };
+		211209691BEC3E2C00D4260D /* GroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 211209671BEC3E2C00D4260D /* GroupCell.m */; };
+		2112096A1BEC3E2C00D4260D /* GroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 211209681BEC3E2C00D4260D /* GroupCell.xib */; };
+		211209711BEC473A00D4260D /* ShipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112096F1BEC473A00D4260D /* ShipCell.m */; };
+		211209721BEC473A00D4260D /* ShipCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 211209701BEC473A00D4260D /* ShipCell.xib */; };
 		4673C0DDAE945E56E3D11EA3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A284912D1097E10B09A05D /* libPods.a */; };
+		B94E8E341BEE0B54002EC8E4 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B94E8E331BEE0B54002EC8E4 /* NSObject+Extension.m */; };
+		B94E8E371BEE0B64002EC8E4 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = B94E8E361BEE0B64002EC8E4 /* NSArray+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,10 @@
 		211209701BEC473A00D4260D /* ShipCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShipCell.xib; sourceTree = "<group>"; };
 		76A284912D1097E10B09A05D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CFA3C82CFB1ECB10B9901D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B94E8E321BEE0B54002EC8E4 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		B94E8E331BEE0B54002EC8E4 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		B94E8E351BEE0B64002EC8E4 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		B94E8E361BEE0B64002EC8E4 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		FFD7357241C9BB0C1B43532E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -218,6 +224,10 @@
 			children = (
 				211209161BE8AA7E00D4260D /* AppDelegate.h */,
 				211209171BE8AA7E00D4260D /* AppDelegate.m */,
+				B94E8E351BEE0B64002EC8E4 /* NSArray+Log.h */,
+				B94E8E361BEE0B64002EC8E4 /* NSArray+Log.m */,
+				B94E8E321BEE0B54002EC8E4 /* NSObject+Extension.h */,
+				B94E8E331BEE0B54002EC8E4 /* NSObject+Extension.m */,
 				211209461BE8B42D00D4260D /* DemoHTTPSessionManager.h */,
 				211209471BE8B42D00D4260D /* DemoHTTPSessionManager.m */,
 			);
@@ -420,10 +430,12 @@
 				211209621BEB46DB00D4260D /* GroupsController.m in Sources */,
 				211209711BEC473A00D4260D /* ShipCell.m in Sources */,
 				211209691BEC3E2C00D4260D /* GroupCell.m in Sources */,
+				B94E8E371BEE0B64002EC8E4 /* NSArray+Log.m in Sources */,
 				211209181BE8AA7E00D4260D /* AppDelegate.m in Sources */,
 				2112095F1BEB430600D4260D /* Ship.m in Sources */,
 				211209151BE8AA7E00D4260D /* main.m in Sources */,
 				211209481BE8B42D00D4260D /* DemoHTTPSessionManager.m in Sources */,
+				B94E8E341BEE0B54002EC8E4 /* NSObject+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

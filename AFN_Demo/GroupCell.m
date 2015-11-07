@@ -11,7 +11,6 @@
 
 @interface GroupCell()
 
-@property (weak, nonatomic) IBOutlet UIView *ColorView;
 @property (weak, nonatomic) IBOutlet UILabel *lblName;
 
 @property (weak, nonatomic) IBOutlet UILabel *lblID;
@@ -25,32 +24,23 @@
     // Initialization code
     [super awakeFromNib];
     
-    self.lblName.text = self.group.GroupName;
-    self.lblID.text = self.group.GroupId;
-    NSString *colorString = self.group.GroupColor;
-    NSArray *colorArray = [colorString componentsSeparatedByString:@","];
-    UIColor *color;
-    if (colorArray.count == 3) {
-        color = [UIColor colorWithRed:[colorArray[0] floatValue]/255.0 green:[colorArray[1] floatValue]/255.0 blue:[colorArray[2] floatValue]/255.0 alpha:1.0];
-    }else {
-        color = [UIColor clearColor];
-    }
-    self.ColorView.backgroundColor = color;
+//    self.lblName.text = self.group.GroupName;
+//    self.lblID.text = self.group.GroupId;
+//    NSString *colorString = self.group.GroupColor;
+//    NSArray *colorArray = [colorString componentsSeparatedByString:@","];
+//    UIColor *color;
+//    if (colorArray.count == 3) {
+//        color = [UIColor colorWithRed:[colorArray[0] floatValue]/255.0 green:[colorArray[1] floatValue]/255.0 blue:[colorArray[2] floatValue]/255.0 alpha:1.0];
+//    }else {
+//        color = [UIColor clearColor];
+//    }
+//    self.backgroundColor = color;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
 
-    // Configure the view for the selected state
-}
++(instancetype)groupCellNew{
 
-+(instancetype)groupCellWithTableview:(UITableView *)tableView
-{
-    GroupCell *cell = [tableView dequeueReusableCellWithIdentifier:@"group_cell"];
-    if (!cell) {
-        cell = [[NSBundle mainBundle] loadNibNamed:@"GroupCell" owner:nil options:nil].firstObject;
-    }
-    return cell;
+    return [[NSBundle mainBundle] loadNibNamed:@"GroupCell" owner:nil options:nil].firstObject;
 }
 
 -(void)setGroup:(ShipGroup *)group
@@ -66,7 +56,7 @@
     }else {
         color = [UIColor clearColor];
     }
-    self.ColorView.backgroundColor = color;
+    self.backgroundColor = color;
 }
 
 @end
